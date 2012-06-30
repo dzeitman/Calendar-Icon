@@ -25,7 +25,7 @@
 		D45B5609159BDB14008C8DB5 /* CalendarIconImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B5605159BD979008C8DB5 /* CalendarIconImage.m */; };
 		D45B560C159C464D008C8DB5 /* bluegrad.png in Resources */ = {isa = PBXBuildFile; fileRef = D45B560A159C464C008C8DB5 /* bluegrad.png */; };
 		D45B560D159C464D008C8DB5 /* bluegrad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45B560B159C464D008C8DB5 /* bluegrad@2x.png */; };
-		D4938333159F885D008E1D09 /* README.text in Resources */ = {isa = PBXBuildFile; fileRef = D4938332159F885D008E1D09 /* README.text */; };
+		D4938333159F885D008E1D09 /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = D4938332159F885D008E1D09 /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,7 @@
 		D45B5605159BD979008C8DB5 /* CalendarIconImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarIconImage.m; sourceTree = "<group>"; };
 		D45B560A159C464C008C8DB5 /* bluegrad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluegrad.png; sourceTree = "<group>"; };
 		D45B560B159C464D008C8DB5 /* bluegrad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluegrad@2x.png"; sourceTree = "<group>"; };
-		D4938332159F885D008E1D09 /* README.text */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.text; sourceTree = "<group>"; };
+		D4938332159F885D008E1D09 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 		D45B55C5159BD92D008C8DB5 = {
 			isa = PBXGroup;
 			children = (
-				D4938332159F885D008E1D09 /* README.text */,
+				D4938332159F885D008E1D09 /* README.mdown */,
 				D4938328159F858D008E1D09 /* Artwork */,
 				D45B55DA159BD92D008C8DB5 /* CalendarIconDemo */,
 				D45B55D3159BD92D008C8DB5 /* Frameworks */,
@@ -210,7 +210,7 @@
 				D45B55F6159BD92D008C8DB5 /* second@2x.png in Resources */,
 				D45B560C159C464D008C8DB5 /* bluegrad.png in Resources */,
 				D45B560D159C464D008C8DB5 /* bluegrad@2x.png in Resources */,
-				D4938333159F885D008E1D09 /* README.text in Resources */,
+				D4938333159F885D008E1D09 /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
