@@ -11,7 +11,6 @@
 @interface DrawViewController : UIViewController  
 
 @property (strong, nonatomic) IBOutlet UIImageView *previewImageView;
-
 @property (strong, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 
