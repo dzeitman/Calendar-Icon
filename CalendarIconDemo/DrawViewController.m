@@ -27,10 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-  //  self.view.backgroundColor = [UIColor whiteColor];
-     
-  
+	// Do any additional setup after loading the view.  
      [self renderImages];
     [self setTabBarIcon];
 }
@@ -41,9 +38,7 @@
  
 - (IBAction)updateDateValue:(id)sender {
     
-   // NSDate *theDate =   [datePicker date];
-      NSDate *theDate = self.datePicker.date;
-    
+    NSDate *theDate = self.datePicker.date;
     
     int imageWidth = 300;
     int imageHeight = 300;
