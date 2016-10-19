@@ -13,8 +13,6 @@
 
 -(id)init{
        self =  [super init];
-   // self = [self initWithText:nil andFrame:CGRectMake(0, 0, 100, 100)];
-     
     return self;
 } 
 
