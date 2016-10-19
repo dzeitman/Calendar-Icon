@@ -30,11 +30,8 @@
  
 -(void)renderArtwork{
     //// Color Declarations
-    UIColor* white = [UIColor whiteColor];//[UIColor colorWithRed: 1 green: 1 blue: 1 alpha: 1];
-    
- 
-     
-   UIColor* black = [UIColor blackColor];// [UIColor colorWithRed: 0 green: 0 blue: 0 alpha: 1];
+    UIColor* white = [UIColor whiteColor];
+    UIColor* black = [UIColor blackColor];
     
     //// Frames
     CGRect frame = self.bounds;
@@ -116,7 +113,7 @@
     //// day Drawing
     CGRect dayRect = CGRectMake(CGRectGetMinX(dayFrame1) + floor(CGRectGetWidth(dayFrame1) * 0.05), CGRectGetMinY(dayFrame1) + floor(CGRectGetHeight(dayFrame1) * 0.04), floor(CGRectGetWidth(dayFrame1) * 0.91), floor(CGRectGetHeight(dayFrame1) * 0.9));
     [white setFill];
-  //  [dayContent drawInRect: dayRect withFont: dayFont lineBreakMode: UILineBreakModeWordWrap alignment: UITextAlignmentCenter];
+ 
     [self drawString:dayContent
       centeredInRect:dayFrame1 font:dayFont];
 
@@ -124,7 +121,6 @@
     //// month Drawing
     CGRect monthRect = CGRectMake(CGRectGetMinX(monthFrame1) + floor(CGRectGetWidth(monthFrame1) * 0), CGRectGetMinY(monthFrame1) + floor(CGRectGetHeight(monthFrame1) * 0.15), floor(CGRectGetWidth(monthFrame1) * 1), floor(CGRectGetHeight(monthFrame1) * 0.75));
     [white setFill];
-   // [monthContent drawInRect: monthRect withFont: monthFont lineBreakMode: UILineBreakModeWordWrap alignment: UITextAlignmentCenter];
     [self drawString:monthContent
       centeredInRect:monthFrame1 font:monthFont];
 
@@ -213,7 +209,7 @@
     //// day Drawing
     CGRect dayRect = CGRectMake(CGRectGetMinX(dayFrame1) + floor(CGRectGetWidth(dayFrame1) * 0.1), CGRectGetMinY(dayFrame1) + floor(CGRectGetHeight(dayFrame1) * 0.02), floor(CGRectGetWidth(dayFrame1) * 0.83), floor(CGRectGetHeight(dayFrame1) * 0.93));
     [white setFill];
- //   [dayContent drawInRect: dayRect withFont: dayFont lineBreakMode: UILineBreakModeWordWrap alignment: UITextAlignmentCenter];
+
     [self drawString:dayContent
       centeredInRect:dayRect font:dayFont];
     
@@ -222,7 +218,6 @@
     [white setFill];
     [monthContent drawInRect: monthRect withFont: monthFont lineBreakMode: UILineBreakModeWordWrap alignment: UITextAlignmentCenter];
     
-   // [self drawString:monthContent  centeredInRect:monthRect font:monthFont];
 
 }
 
@@ -307,12 +302,9 @@
     
     
     //// day Drawing
-  //  CGRect dayRect = CGRectMake(CGRectGetMinX(dayFrame) + floor(CGRectGetWidth(dayFrame) * 0.05), CGRectGetMinY(dayFrame) + floor(CGRectGetHeight(dayFrame) * 0.07), floor(CGRectGetWidth(dayFrame) * 0.89), floor(CGRectGetHeight(dayFrame) * 0.87));
-    
     CGRect dayRect = CGRectMake(CGRectGetMinX(dayFrame), CGRectGetMinY(dayFrame) ,  CGRectGetWidth(dayFrame), CGRectGetHeight(dayFrame) );
     
     [white setFill];
-  //  [dayContent drawInRect: dayRect withFont: dayFont lineBreakMode: UILineBreakModeWordWrap alignment: UITextAlignmentCenter];
     [self drawString:dayContent
       centeredInRect:dayRect font:dayFont];
 
@@ -320,7 +312,6 @@
     //// month Drawing
     CGRect monthRect = CGRectMake(CGRectGetMinX(monthFrame) + floor(CGRectGetWidth(monthFrame) * 0.04), CGRectGetMinY(monthFrame) + floor(CGRectGetHeight(monthFrame) * 0.13), floor(CGRectGetWidth(monthFrame) * 0.88), floor(CGRectGetHeight(monthFrame) * 0.75));
     [white setFill];
-   // [monthContent drawInRect: monthRect withFont: monthFont lineBreakMode: UILineBreakModeWordWrap alignment: UITextAlignmentCenter];
     [self drawString:monthContent
       centeredInRect:monthRect font:monthFont];
 
